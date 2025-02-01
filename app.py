@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.header('India Census Analysis by Maping')
 
-final_df = pd.read_csv('/Users/tarunkumar/NLPproject/syzgzy-india-app/india-census.csv')
+final_df = pd.read_csv('india-census.csv')
 
 list_of_states = list(final_df['State'].unique())
 list_of_states.insert(0,'Overall India')
